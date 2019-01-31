@@ -1,0 +1,13 @@
+<div class="container">
+  <textarea [ngModel]="certData" (ngModelChange)="startTimer($event)" rows="15" cols="150" placeholder="Please enter the private cert beginning with
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  and ending with
+  -----END OPENSSH PRIVATE KEY-----"></textarea>
+  <div>Manage server power</div>
+  <div class="btn-group" role="group" aria-label="Server Management Buttons">
+    <button type="button" class="btn btn-secondary" (click)="startVM()">Start</button>
+    <button type="button" class="btn btn-secondary" (click)="stopVM()">Stop</button>
+  </div>
+  <br/>
+  <p>Status: {{fetchData}}</p>
+</div>
