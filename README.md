@@ -1,4 +1,7 @@
-# UdacityVmManager
+# VM-Manager-Frontend
+
+This project belongs to [this project](https://github.com/llxp/Udacity_LinuxServerConfiguration_Project).
+The backend is saved in [this repository](https://github.com/llxp/vm-manager).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
